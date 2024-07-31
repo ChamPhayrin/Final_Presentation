@@ -1,0 +1,70 @@
+
+
+
+/* Header */
+.header {
+    text-align: center;
+    font-family: "Baskervville SC", serif;
+    color: #ffffff;
+}
+
+.header h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.header h2{
+    font-style: italic;
+}
+
+/* Nav Picture */
+nav {
+    background-color: hsl(30 31% 80% /0%)!important;
+}
+.nav_picture {
+    background-image: url('header_picture.jpg');
+    background-repeat: no-repeat;
+    background-position: 30% 65%; ;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #dbcbbb;
+    padding: 100px 0 100px 0;
+    background-blend-mode: multiply;
+}
+
+/*  Writing Intro */
+
+.writing {
+    background-color: #dbcbbb;
+    display: flex;
+    text-align: left;
+}
+
+.writing_intro {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2% 4% 0 2% ;
+}
+
+.writing_intro h2{
+    color: red;
+}
+
+.writing_picture {
+    width: 25rem;
+}
+
+.writing_picture img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.writing_all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5% 0 5% 0;
+}
+
