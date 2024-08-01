@@ -8,14 +8,23 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #dbcbbb;
 }
 /* body container end*/
 
-/* Navigation Bar Container*/
-nav {
-  padding: 0 5%;
+/* Navigation Background */
+/* put in a div container bc changing background color using nav element did not work */
+#nav_background {
+  background-color: rgb(44, 44, 44);
 }
-/* navigation bar container end*/
+/* navigation background end */
+
+/* Navigation Container*/
+nav {
+  padding: 3% 5%;
+  width: 100;
+}
+/* navigation container end*/
 
 /* Navigation Top Container */
 .top {
@@ -30,20 +39,20 @@ nav {
 .contact {
   display: flex;
   justify-content: flex-start;
-  color: rgb(92, 22, 5);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 .login {
   display: flex;
   justify-content: flex-end;
-  color: rgb(92, 22, 5);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 .login_icon {
   margin-right: 5px;
-  color: rgb(92, 22, 5);
+  color: rgb(255, 255, 255);
 }
 /* navigation top container end*/
 
@@ -82,7 +91,7 @@ nav {
 
 .nav_icon a {
   border: none;
-  color: rgb(92, 22, 5);
+  color: rgb(255, 255, 255);
   margin: 3px;
 }
 /* navigation buttons end */
